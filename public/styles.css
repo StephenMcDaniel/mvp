@@ -1,0 +1,42 @@
+.container{
+  display: flex;
+  justify-content: space-between;
+  /* flex-direction: row; */
+}
+.categories {
+  /* align-content: center;
+  justify-content: space-between; */
+  display: flex;
+  width: 100vw;
+  justify-content: center;
+}
+.thing {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+}
+.all {
+  display: flex;
+  width: 100vw;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.main {
+  height: 150px;
+  width: 150px;
+  align-content: center;
+  justify-content: space-between;
+}
+.item-container {
+/* justify-content: center;
+justify-content: space-evenly; */
+display: flex;
+width: 100vw;
+justify-content: space-evenly;
+}
+.item {
+  height: 100px;
+  width: 100px;
+  justify-content: space-evenly;
+}
